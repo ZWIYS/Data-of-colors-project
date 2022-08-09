@@ -16,7 +16,7 @@ PassAuth = ('123456',)
 # function for remove sth from List
 def Remove():
     Remove_item = input('input object from list to remove:')
-    if remove_item in List_main:
+    if Remove_item in List_main:
         print('object:', Remove_item, 'removed')
         del List_main[Remove_item]
     else:
